@@ -46,17 +46,17 @@
       <section class="form">
         <div class="wrapper">
             <h2>Servicios Prestados</h2>
-            <form action="#">
+            <form id=serviciosPrestados>
             <div class="checkbox">
-                <input type="checkbox" id="consGen">
+                <input type="checkbox" id="consGen" value="50">
                 <label for="check1">Consulta General</label>
             </div>
             <div class="checkbox">
-                <input type="checkbox" id="vac">
+                <input type="checkbox" id="vac" value="100">
                 <label for="check1">Vacunación</label>
             </div>
             <div class="checkbox">
-                <input type="checkbox" id="ctrl">
+                <input type="checkbox" id="ctrl" value="30">
                 <label for="check1">Control</label>
             </div>
             <div class="checkbox">
@@ -64,11 +64,15 @@
                 <label for="check1">Desparasitación</label>
             </div>
             <div class="input-box button">
-                <input type="Submit" value="Calcular Total">
+                <input type="submit" value="Calcular Total">
             </div>
+
+            <div id="result"></div>
             </form>
         </div>
       </section>
+
+      <script src="script.js"></script>
 
 </body>
 </html>
