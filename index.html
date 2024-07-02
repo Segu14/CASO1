@@ -23,24 +23,27 @@
     <section class="form">
         <div class="wrapper">
             <h2>Agenda una Cita</h2>
-            <form action="#">
+            <form id="agendarCita">
             <div class="input-box">
-                <input type="text" placeholder="Ingresa el nombre de tu Mascota" required>
+                <input type="text" id="nomMascota" placeholder="Ingresa el nombre de tu Mascota" required>
             </div>
             <div class="input-box">
-                <input type="text" placeholder="Ingresa el nombre de el/la Dueñ@" required>
+                <input type="text" id="nomDuenho"  placeholder="Ingresa el nombre de el/la Dueñ@" required>
             </div>
             <div class="input-box">
-                <input type="date" required>
+                <input type="date" id="fecha" required>
             </div>
             <div class="input-box">
-                <input type="time" required>
+                <input type="time" id="hora" required>
             </div>
             <div class="input-box button">
-                <input type="Submit" value="Agendar Cita">
+                <input type="submit" value="Agendar Cita">
             </div>
+
             </form>
+
         </div>
+
       </section>
 
       <section class="form">
@@ -67,12 +70,20 @@
                 <input type="submit" value="Calcular Total">
             </div>
 
-            <div id="result"></div>
+            <div class= result id="result"></div>
+
+            <h2>Citas Almacenadas</h2>
+            <div id="resultCita"></div>
+
             </form>
+
         </div>
       </section>
 
       <script src="script.js"></script>
 
+      <footer>
+        <p>Sebastián Segura Sáenz - Universidad Fidélitas</p>
+      </footer>
 </body>
 </html>

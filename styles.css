@@ -97,3 +97,20 @@ form .text h3 a{
 form .text h3 a:hover{
   text-decoration: underline;
 }
+
+.result {
+  margin-bottom: 40px;
+}
+
+footer {
+  margin-top: 50px;
+  font-family: Arial;
+  background-color: white;
+  color: black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 60px;
+}
